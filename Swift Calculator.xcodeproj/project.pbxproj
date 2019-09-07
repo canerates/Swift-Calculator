@@ -98,10 +98,10 @@
 			isa = PBXGroup;
 			children = (
 				D857909823239AB4008C34DE /* AppDelegate.swift */,
-				D857909A23239AB4008C34DE /* ViewController.swift */,
-				D857909C23239AB4008C34DE /* Main.storyboard */,
-				D857909F23239AB6008C34DE /* Assets.xcassets */,
-				D85790A123239AB6008C34DE /* LaunchScreen.storyboard */,
+				D85790C823239BBC008C34DE /* Controller */,
+				D85790C723239BB5008C34DE /* View */,
+				D85790C623239B9B008C34DE /* Model */,
+				D85790C923239BEA008C34DE /* Supporting Files */,
 				D85790A423239AB6008C34DE /* Info.plist */,
 			);
 			path = "Swift Calculator";
@@ -123,6 +123,38 @@
 				D85790BA23239AB6008C34DE /* Info.plist */,
 			);
 			path = "Swift CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		D85790C623239B9B008C34DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D85790C723239BB5008C34DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D857909C23239AB4008C34DE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D85790C823239BBC008C34DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D857909A23239AB4008C34DE /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D85790C923239BEA008C34DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D857909F23239AB6008C34DE /* Assets.xcassets */,
+				D85790A123239AB6008C34DE /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
