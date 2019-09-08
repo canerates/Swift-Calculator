@@ -14,6 +14,9 @@
 		D85790A323239AB6008C34DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85790A123239AB6008C34DE /* LaunchScreen.storyboard */; };
 		D85790AE23239AB6008C34DE /* Swift_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85790AD23239AB6008C34DE /* Swift_CalculatorTests.swift */; };
 		D85790B923239AB6008C34DE /* Swift_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85790B823239AB6008C34DE /* Swift_CalculatorUITests.swift */; };
+		D85790CB23252F20008C34DE /* CalculatorLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85790CA23252F20008C34DE /* CalculatorLogic.swift */; };
+		D85790CC23252F20008C34DE /* CalculatorLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85790CA23252F20008C34DE /* CalculatorLogic.swift */; };
+		D85790CD23252F20008C34DE /* CalculatorLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85790CA23252F20008C34DE /* CalculatorLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,7 @@
 		D85790B423239AB6008C34DE /* Swift CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85790B823239AB6008C34DE /* Swift_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_CalculatorUITests.swift; sourceTree = "<group>"; };
 		D85790BA23239AB6008C34DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85790CA23252F20008C34DE /* CalculatorLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,7 @@
 		D85790C623239B9B008C34DE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D85790CA23252F20008C34DE /* CalculatorLogic.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -290,6 +295,7 @@
 			files = (
 				D857909B23239AB4008C34DE /* ViewController.swift in Sources */,
 				D857909923239AB4008C34DE /* AppDelegate.swift in Sources */,
+				D85790CB23252F20008C34DE /* CalculatorLogic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D85790CC23252F20008C34DE /* CalculatorLogic.swift in Sources */,
 				D85790AE23239AB6008C34DE /* Swift_CalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D85790CD23252F20008C34DE /* CalculatorLogic.swift in Sources */,
 				D85790B923239AB6008C34DE /* Swift_CalculatorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
